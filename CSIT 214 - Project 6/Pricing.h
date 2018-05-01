@@ -1,6 +1,6 @@
 // Author		: Logan Hammond; hamm32637@email.ccbcmd.edu
 // Source		: Pricing.h
-// Description	: TBD
+// Description	: Header file for Geometry class.
 // IDE Used		: Microsoft Visual Studio 2017
 
 #include "Geometry.h"
