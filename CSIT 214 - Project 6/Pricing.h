@@ -1,15 +1,15 @@
+// Author		: Logan Hammond; hamm32637@email.ccbcmd.edu
+// Source		: Pricing.h
+// Description	: TBD
+// IDE Used		: Microsoft Visual Studio 2017
+
 #include "Geometry.h"
-#include <iostream>
 #pragma once
 
-class Pricing : Geometry{
-private:
-	const double SOD_PRICE;
-	const double FENCE_PRICE;
+class Pricing : public Geometry{
 public:
-	struct Pricing(int l, int w);
-	double getSodCost(int);
-	double getFenceCost(int);
-
+	Pricing(int l, int w) : Geometry(l, w) {}
+	double getSodCost(double SOD_PRICE);
+	double getFenceCost(double FENCE_PRICE);
 };
 

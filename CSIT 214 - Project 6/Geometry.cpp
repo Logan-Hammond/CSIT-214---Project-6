@@ -1,6 +1,6 @@
 // Author		: Logan Hammond; hamm32637@email.ccbcmd.edu
-// Soruce		: Geometry.cpp
-// Description	: Class file for Geometry.h header.
+// Source		: Geometry.cpp
+// Description	: Class file for Geometry.h
 // IDE Used		: Microsoft Visual Studio 2017
 
 #include "Geometry.h"

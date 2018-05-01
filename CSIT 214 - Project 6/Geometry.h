@@ -4,8 +4,8 @@
 // IDE Used		: Microsoft Visual Studio 2017
 
 #include <iostream>
-
 #pragma once
+
 class Geometry {
 private: 
 	int length;
