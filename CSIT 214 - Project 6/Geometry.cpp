@@ -28,7 +28,8 @@ Geometry::Geometry(int s) {
 void Geometry::checkNum(int n) {
 	int num = n;
 	if (!(num > 0)) {
-		cout << "\n\tError: Invalid input. Program will now exit.";
+		cout << "\n\tError: Invalid input. Program will now exit.\n\t";
+		system("pause");
 		exit(1);
 	}
 }

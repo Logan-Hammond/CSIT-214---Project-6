@@ -1,6 +1,6 @@
-// Author		: Logan Hammond; hamm32637@email.ccbcmd.edu
+// Author		: Logan Hammond; hamm32637@email.ccbcmd.edu; 
 // Source		: main.cpp
-// Description	: TBD
+// Description	: Driver class. Program to calculate cost of fencing and sodding.
 // IDE Used		: Microsoft Visual Studio 2017
 
 #include <iostream>
@@ -15,13 +15,15 @@ int main() {
 	const double SOD_PRICE = .47;
 	const double FENCE_PRICE = 22.5;
 	
+	Pricing pricer(0, 0);
+
 	cout << "\n\t\tParkton Landscaping";
 	cout << "\n\n\tEnter length: ";
 	cin >> length;
+	pricer.setLength(length);
 	cout << "\tEnter width : ";
 	cin >> width;
-
-	Pricing pricer(length, width);
+	pricer.setWidth(width);
 
 	cout << "\n\n\t\tLandscaping Costs";
 	cout << "\n\n\tSod	: " << pricer.getSodCost(SOD_PRICE); 
